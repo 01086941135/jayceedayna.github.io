@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Merriweather:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: rgba(2, 9, 81, 0.215);
+    /* border-radius: 40px;     */
+
+}
+
+/* .logo {
+    padding-top: 35px;
+    margin: 0 155px;
+} */
+
+nav li {
+    display: inline-block;
+    color: #fff;
+    
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 20px;
+    /* font-family: 'Permanent Marker', sans-serif; */
+    letter-spacing :3px;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+header {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(img/guam_1.jpg); */
+    background-image: url(img/we3.JPG);
+    background-position: center;
+    background-size: cover;
+    background-color: beige;
+    /* border-image-slice: 30%; */
+}
+
+h1 {
+    padding: 250px;
+    letter-spacing :5px;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Permanent Marker','Grandiflora One',sans-serif;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Permanent Marker','Grandiflora One',sans-serif;
+
+}
+/* header p {
+    
+    padding: 400px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Permanent Marker','Grandiflora One',sans-serif;
+} */
+
+#section {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Permanent Marker','Grandiflora One',sans-serif;
+    color: rgba(2, 2, 115, 0.58);
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: yellow;
+
+}
+.guam_1 {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 400px;
+    margin: 20px 20px;
+    background-position: center;
+    background-size: cover;
+    /* overflow:hidden; */
+    background-repeat: no-repeat;
+    background-image: url(img/we2.jpg);
+}
+
+
+footer {
+    background-color: #828181;
+    text-align: center;
+    padding: 60px;
+    font-size: 20px;
+    font-family: 'Permanent Marker','Grandiflora One',sans-serif;
+    width: 100%;
+    height: 150px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(158, 64, 2, 0.663);
+    font-family: 'Permanent Marker','Grandiflora One',sans-serif;
+}
+
+svg {
+    fill: rgb(255, 179, 0);
+}
+
+
+
+.g_box2 {
+    width: 50%;
+    height: 500px;
+}
+
+.g_b2{
+    margin-top: 50px;
+    background-image: url(img/guam_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.g_b3 {
+    position: relative;
+    background-color: rgba(255, 213, 142, 0.347);
+}
+
+.guam_box {
+    width: 80%;
+}
+
+body {
+    background-color: rgba(238, 130, 59);
+}
